@@ -1,0 +1,105 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIRST NAME"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your First Name"
+        android:id="@+id/nameid"
+        android:drawableLeft="@drawable/baseline_person_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAST NAME"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Last Name"
+        android:id="@+id/lnameid"
+        android:drawableLeft="@drawable/baseline_person_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COLLEGE"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your College Name"
+        android:id="@+id/collegeid"
+        android:drawableLeft="@drawable/baseline_menu_book_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATE OF BIRTH"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Dob"
+        android:id="@+id/dobid"
+        android:inputType="date"
+        android:drawableLeft="@drawable/baseline_calendar_month_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COURSE"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Course Name"
+        android:id="@+id/courseid"
+        android:drawableLeft="@drawable/baseline_computer_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOBILE NUMBER"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Mobile No"
+        android:inputType="number"
+        android:id="@+id/mobid"
+        android:drawableLeft="@drawable/baseline_local_phone_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL ID"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email id"
+        android:id="@+id/emailid"
+        android:drawableLeft="@drawable/baseline_email_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Address"
+        android:id="@+id/addressid"
+        android:drawableLeft="@drawable/baseline_home_24"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD STUDENT DETAILS"
+        android:layout_margin="30px"
+        android:background="#2196F3"
+        android:textColor="@color/white"
+        android:id="@+id/addstuddetid"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO MENU"
+        android:layout_margin="30px"
+        android:background="#2196F3"
+        android:textColor="@color/white"
+        android:id="@+id/backstudid"/>
+</LinearLayout>
